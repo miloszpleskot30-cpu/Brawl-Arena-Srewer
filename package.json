@@ -1,0 +1,13 @@
+{
+  "name": "brawl-arena-server",
+  "version": "1.0.0",
+  "description": "Brawl Arena Legends multiplayer server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "colyseus": "^0.16.0",
+    "@colyseus/ws-transport": "^0.16.0"
+  }
+}
